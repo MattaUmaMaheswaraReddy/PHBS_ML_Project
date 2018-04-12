@@ -25,7 +25,7 @@ House Price Prediction
 [1]. Wang Tianqi 1401213465
 [2]. Matta Uma Maheswara Reddy 1601213442 
 
-![Alt text](/Users/maheshreddy/Documents/GitHub Destop/PHBS_ML_Project/Image/housesbanner.jpg?raw=true "Title")
+![Screenshot](Image/housesbanner.jpg)
     
 Project Description
 This is a Kaggle Competition to predict housing sale prices using advanced regression techniques. There are 79 variables that can be used for predicting the housing prices. We plan to implement various techniques we have learned in the class and try to predict the housing prices.
