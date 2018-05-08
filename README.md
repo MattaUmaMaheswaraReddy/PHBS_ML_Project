@@ -6,7 +6,7 @@ House Price Prediction
 [1]. Wang Tianqi 1401213465
 [2]. Matta Uma Maheswara Reddy 1601213442 
 
-![Screenshot](Image/housesbanner.jpg)
+![Frontpage](Image/housesbanner.jpg)
     
 ## Project Description
 
@@ -131,5 +131,20 @@ Since the project is a regression problem, we tried some advanced  regression te
 ## Result
 The regression result on three data set using different models are listed below.
 
+Model | All Feature | PCA | Selected Feature
+-------|-----------|-------|------------------
+Linear Regression|0.14031|0.14865|0.17700
+Gradient Boosting | 0.12557|0.18355|0.17320
+Decision Tree |0.20608|0.30176|0.23450
+Random Forest | 0.15104|0.21528|0.18317
+Ridge |0.12829|0.14871|0.17700
+Lasso |0.12304|0.14842|0.17705
+
+
+We can see the Lasso fit best, and we can take a look at what features this model choose and the importance of selected features.
+
+![Feature](Image/FeatureImportance.png)
+
+The most important positive feature is GrLivArea - the above ground area by area square feet. 
 
 
